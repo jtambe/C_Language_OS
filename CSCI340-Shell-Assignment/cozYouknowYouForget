@@ -1,0 +1,17 @@
+1. 
+################################################################################################################
+CTRL+Z stops (pauses) a job
+CTRL+C terminates a job
+with CTRL+C you cannot resume the process but with CTRL+Z the job can be resumed by just entering at the command promt:
+fg %1
+if you have multiple processes paused then you should do
+jobs
+to see the output and select the appropriate number to resume e.g.
+fg %3
+resumes the third job in the list. You can also have jobs running in the background with
+bg %n
+where n is the job number.
+
+
+2. 
+################################################################################################################

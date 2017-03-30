@@ -1,0 +1,52 @@
+#!/bin/bash
+
+
+echo #################################################################
+
+echo filtered-avg-boats.bmp
+python picturediff.py filtered-avg-boats1.bmp filtered-avg-boats.bmp
+
+echo filtered-edge-boats.bmp
+python picturediff.py filtered-edge-boats1.bmp filtered-edge-boats.bmp
+
+echo filtered-emboss-boats.bmp
+python picturediff.py filtered-emboss-boats1.bmp filtered-emboss-boats.bmp
+
+echo filtered-gauss-boats.bmp
+python picturediff.py filtered-gauss-boats1.bmp filtered-gauss-boats.bmp
+
+echo filtered-hline-boats.bmp
+python picturediff.py filtered-hline-boats1.bmp filtered-hline-boats.bmp
+
+echo filtered-sharpen-boats.bmp
+python picturediff.py filtered-sharpen-boats1.bmp filtered-sharpen-boats.bmp
+
+echo filtered-vline-boats.bmp
+python picturediff.py filtered-vline-boats1.bmp filtered-vline-boats.bmp
+
+
+echo #################################################################
+
+echo filtered-avg-blocks-small.bmp
+python picturediff.py filtered-avg-blocks-small1.bmp filtered-avg-blocks-small.bmp
+
+echo filtered-edge-blocks-small.bmp
+python picturediff.py filtered-edge-blocks-small1.bmp filtered-edge-blocks-small.bmp
+
+echo filtered-emboss-blocks-small.bmp
+python picturediff.py filtered-emboss-blocks-small1.bmp filtered-emboss-blocks-small.bmp
+
+echo filtered-gauss-blocks-small.bmp
+python picturediff.py filtered-gauss-blocks-small1.bmp filtered-gauss-blocks-small.bmp
+
+echo filtered-hline-blocks-small.bmp
+python picturediff.py filtered-hline-blocks-small1.bmp filtered-hline-blocks-small.bmp
+
+echo filtered-sharpen-blocks-small.bmp
+python picturediff.py filtered-sharpen-blocks-small1.bmp filtered-sharpen-blocks-small.bmp
+
+echo filtered-vline-blocks-small.bmp
+python picturediff.py filtered-vline-blocks-small1.bmp filtered-vline-blocks-small.bmp
+
+echo #################################################################
+
