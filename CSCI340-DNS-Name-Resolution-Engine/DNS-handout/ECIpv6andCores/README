@@ -1,0 +1,41 @@
+CSCI340 (Operating Systems)
+Spring 2014
+California State University, Chico
+Programming Assignment 4
+Public Code
+
+
+By Bryan Dixon - 2014
+http://www.bryancdixon.com
+
+Adopted from previous code by
+ Andrew Sayler <www.andysalyer.com>    - 2012
+    Helped By: Junho Ahn               - 2012
+ Chris Wailes <chris.wailes@gmail.com> - 2010
+ Wei-Te Chen <weite.chen@colorado.edu> - 2011
+ Blaise Barney - pthread-hello.c
+
+---Folders---
+input - names*.txt input files
+handout - Assignment description and documentation
+
+---Executables---
+lookup - A basic non-threaded DNS query-er
+queueTest - Unit test program for queue
+pthread-hello ; A simple threaded "Hello World" program
+
+---Examples---
+Build:
+ make
+
+Clean:
+ make clean
+
+Lookup DNS info for all names files in input folder:
+ ./lookup input/names*.txt results.txt
+
+Check queue for memory leaks:
+ valgrind ./queueTest
+
+Run pthread-hello
+ ./pthread-hello
